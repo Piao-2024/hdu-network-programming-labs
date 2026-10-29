@@ -99,7 +99,7 @@ I09补充：在初次欢迎前、等待bet响应、收到结果但尚未收到�
    uv run --no-project --no-managed-python --no-python-downloads --python /usr/local/bin/python3.13 python -m unittest discover -s tests -v
    ```
 
-2. 两个 macOS 终端切换到 `/Users/piao/Backup/Code/Git/RemoteBet`，按需求文档分别启动服务端和客户端，先默认 5000，再双方改为同一其他端口。
+2. 两个 macOS 终端切换到 `/Users/piao/Backup/Code/Git/RemoteBet/Experiment 2`，按需求文档分别启动服务端和客户端，先默认 5000，再双方改为同一其他端口。
 3. 检查欢迎、预叫、格式提示；输入 `ya qx 10 coin`，记录服务端权威实际点数、ASCII、点型、输赢金额；随机 E2E 只核对格式/流程，不要求碰巧中奖。
 4. 输入非法命令，再合法下注，确认预叫在错误前后不变。重复多盘，最后输入 quit，记录 bye 和客户端正常退出；服务端仍可接受下一会话。
 5. 另测 Ctrl-D/Ctrl-C、连接拒绝、服务端中止、端口占用、非法端口参数（0、65536、非数字）；连接错误退出非零，主动退出正常为零。测试服务端内部使用端口0与对用户暴露CLI端口范围1～65535并不矛盾。
