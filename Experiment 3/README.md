@@ -1,4 +1,4 @@
-# Experiment 2：RemoteBet
+# Experiment 3：RemoteBet
 
 基于 Python 标准库 TCP Socket 的骰宝命令行游戏，适用于 macOS 终端。服务端负责预叫、实际骰子、判型和结算；客户端只负责交互与展示。当前为单活动客户端版本，采用已确认的规则 A1：每盘一注、净赢赔率、无余额、三币不兑换。
 
@@ -7,7 +7,7 @@
 在两个终端进入项目目录：
 
 ```sh
-cd "/Users/piao/Backup/Code/Git/RemoteBet/Experiment 2"
+cd "/Users/piao/Backup/Code/Git/RemoteBet/Experiment 3"
 ```
 
 终端一启动服务端：

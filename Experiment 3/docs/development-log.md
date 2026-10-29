@@ -50,6 +50,6 @@ Final: Ruling: 审阅未评估的统计/商业公平、余额/恢复/并发/远�
 
 ## 课程仓库整理
 
-按用户要求将实验2的RemoteBet代码、测试和文档移到Experiment 2，Experiment 3和Experiment 4仅保留.gitkeep。仓库首页改为课程实验索引。移动后从Experiment 2目录执行原uv命令，47个测试全部通过。
+按用户要求将实验3的RemoteBet代码、测试和文档移到Experiment 3，Experiment 2和Experiment 4仅保留.gitkeep。仓库首页改为课程实验索引。移动后从Experiment 3目录执行原uv命令，47个测试全部通过。
 
 用户要求代码首部声明不提交：本地源码保留声明，Git提交中的源码去除该注释前缀；程序语法树保持一致。未跟踪的Code.zip不纳入提交。
