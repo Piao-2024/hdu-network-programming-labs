@@ -6,8 +6,8 @@
 
 | 目录 | 内容 | 状态 |
 |---|---|---|
-| [Experiment 2](<Experiment 2/README.md>) | RemoteBet：基于TCP的远程骰宝命令行游戏 | 已实现 |
-| Experiment 3 | 实验3 | 预留，待上传 |
+| [Experiment 3](<Experiment 2/README.md>) | RemoteBet：基于TCP的远程骰宝命令行游戏 | 已实现 |
+| Experiment 2 | 实验2 | 预留，待上传 |
 | Experiment 4 | 实验4 | 预留，待上传 |
 
 ```text
